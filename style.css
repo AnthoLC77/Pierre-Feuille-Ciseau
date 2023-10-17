@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+body {
+  background: linear-gradient(0.31turn, #1c1917 50%, #ffb92a 50%);
+  height: 100vh;
+  color: white;
+}
+
+img {
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* postulat de départ */
+  top: 50%;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.container-choix {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.score-joueur {
+  font-size: 50px;
+  position: absolute;
+  left: 200px;
+  text-align: center;
+}
+
+.score-ia {
+  font-size: 50px;
+  position: absolute;
+  right: 200px;
+  text-align: center;
+}
+
+.display-choix-j,
+.display-choix-i {
+  display: flex;
+  align-items: center;
+}
+
+.img-choix-j {
+  margin-left: 30px;
+}
+
+.img-choix-i {
+  margin-right: 30px;
+}
