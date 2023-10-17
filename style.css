@@ -5,7 +5,7 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
@@ -37,6 +37,11 @@ p {
   left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -50%);
   width: 100%;
+}
+
+.container-arme {
+  display: flex;
+  align-items: center;
 }
 
 .container-choix {
